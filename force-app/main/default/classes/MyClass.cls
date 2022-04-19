@@ -1,4 +1,4 @@
-public with sharing class MyClass {
+public class MyClass {
 
     public static void updateDate(List<Warehouse__c> warehouses){
         List<Warehouse__c> houses = [SELECT CreatedDate FROM Warehouse__c ORDER BY CreatedDate DESC NULLS FIRST];
